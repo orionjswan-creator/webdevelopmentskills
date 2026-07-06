@@ -65,7 +65,7 @@ the pipeline.
 Steps 3 and 4 run in either order or in parallel — every image slot is wired to a manifest ID
 and the site builds with placeholders; real images drop in later with zero code changes.
 
-## The skills (25)
+## The skills (27)
 
 ### Core pipeline
 
@@ -112,6 +112,8 @@ and the site builds with placeholders; real images drop in later with zero code 
 | [`design-taste`](skills/design-taste/SKILL.md) | The judgment layer: typography pairing logic, color-system craft, spacing/hierarchy, "expensive look" heuristics, canonical taste failures — the art director in file form |
 | [`ui-patterns`](skills/ui-patterns/SKILL.md) | Award-grade component specs: navigation, buttons, forms, cards, modals/drawers, accordions, footers, tables, toasts |
 | [`competitive-research`](skills/competitive-research/SKILL.md) | Pre-design research pass: award/trend sweep + competitor teardowns → RESEARCH.md with a differentiation strategy that feeds DIRECTION.md; includes a recurring trend-watch mode |
+| [`site-teardown`](skills/site-teardown/SKILL.md) | Professional study of any public site: stack fingerprint, measured tokens, structure map, motion grammar → TEARDOWN.md. Extracts patterns and measurements, never code or content |
+| [`starter-kits`](skills/starter-kits/SKILL.md) | The agency's own frameworks: one original, fully-owned starter per style, engineered for repopulation (tokens + copy deck + manifest swap), with a post-project harvest loop that compounds |
 | [`rapid-site-sprint`](skills/rapid-site-sprint/SKILL.md) | The move-fast partner: ship an excellent v1 in one session via decision defaults, parallel Codex-assets + Sonnet-build tracks, strict timeboxes, and a fixed quality floor |
 | [`site-copywriter`](skills/site-copywriter/SKILL.md) | Voice sheet, copy deck, microcopy, meta/alt text — kills lorem ipsum for good |
 | [`site-auditor`](skills/site-auditor/SKILL.md) | Scores any existing site 0–100 against the rubric with an evidence-backed, prioritized fix plan |

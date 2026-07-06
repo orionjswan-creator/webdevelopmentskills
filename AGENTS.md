@@ -16,6 +16,8 @@ before writing code.
 | "Make it look better/premium" — aesthetic judgment calls | `skills/design-taste/SKILL.md` |
 | Build or polish a specific component (nav, form, modal, card…) | `skills/ui-patterns/SKILL.md` |
 | Research competitors / trends before designing | `skills/competitive-research/SKILL.md` |
+| Analyze / deconstruct / "figure out how they built" a specific site | `skills/site-teardown/SKILL.md` |
+| Create or use a reusable starter template; harvest project code into kits | `skills/starter-kits/SKILL.md` |
 | Ship a site fast ("today", "ASAP", "quick MVP/landing page") | `skills/rapid-site-sprint/SKILL.md` |
 | Scope, quote, or propose a client engagement; run discovery | `skills/client-discovery/SKILL.md` |
 | Plan sitemap / IA / user journeys / wireframes | `skills/ux-architecture/SKILL.md` |
@@ -41,6 +43,8 @@ or infer from the brief and state your choice before building.
 
 1. **Patterns, not clones.** Reproduce techniques and quality, never a specific site's content,
    copy, logo, brand colors, or imagery. All output must be original to the user's brand.
+   Never download/mirror sites to reuse their code or markup — study via `site-teardown`
+   (facts and measurements only) and build from our own `starter-kits`.
 2. **Read the chosen style skill top to bottom before writing any code.** The style skill decides
    the tech stack — respect its choice.
 3. **Every image slot must reference an asset-manifest ID** (`assets/manifest.md`). If the

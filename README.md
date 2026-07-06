@@ -39,10 +39,15 @@ original design that meets the bar award juries score against:
              not built with this library).
 ```
 
+Cross-cutting partners: **competitive-research** runs before step 2 when the market matters;
+**design-taste** and **ui-patterns** back every design decision in steps 2–4; and
+**rapid-site-sprint** replaces the whole pipeline with a same-day fast path when speed is the
+brief.
+
 Steps 3 and 4 run in either order or in parallel — every image slot is wired to a manifest ID
 and the site builds with placeholders; real images drop in later with zero code changes.
 
-## The skills (12)
+## The skills (16)
 
 ### Core pipeline
 
@@ -67,6 +72,10 @@ and the site builds with placeholders; real images drop in later with zero code 
 
 | Skill | What it does |
 |---|---|
+| [`design-taste`](skills/design-taste/SKILL.md) | The judgment layer: typography pairing logic, color-system craft, spacing/hierarchy, "expensive look" heuristics, canonical taste failures — the art director in file form |
+| [`ui-patterns`](skills/ui-patterns/SKILL.md) | Award-grade component specs: navigation, buttons, forms, cards, modals/drawers, accordions, footers, tables, toasts |
+| [`competitive-research`](skills/competitive-research/SKILL.md) | Pre-design research pass: award/trend sweep + competitor teardowns → RESEARCH.md with a differentiation strategy that feeds DIRECTION.md; includes a recurring trend-watch mode |
+| [`rapid-site-sprint`](skills/rapid-site-sprint/SKILL.md) | The move-fast partner: ship an excellent v1 in one session via decision defaults, parallel Codex-assets + Sonnet-build tracks, strict timeboxes, and a fixed quality floor |
 | [`site-copywriter`](skills/site-copywriter/SKILL.md) | Voice sheet, copy deck, microcopy, meta/alt text — kills lorem ipsum for good |
 | [`site-auditor`](skills/site-auditor/SKILL.md) | Scores any existing site 0–100 against the rubric with an evidence-backed, prioritized fix plan |
 | [`launch-seo`](skills/launch-seo/SKILL.md) | SEO, share cards, analytics, deploy verification, Awwwards/FWA/CSSDA submission prep |

@@ -153,6 +153,17 @@ and push harder. Ship with: custom 404, favicon set, OG image (asset manifest ha
 these), and a `NOTES.md` telling the user exactly which manifest assets are still placeholders
 and how to generate the real ones.
 
+## Companion skills
+
+- **Speed requested?** ("today", "ASAP", "MVP") → switch to `skills/rapid-site-sprint` — it
+  compresses this pipeline with decision defaults and a fixed quality floor.
+- **High-stakes / crowded market?** Run `skills/competitive-research` before Phase 1 — its
+  RESEARCH.md recommendation block feeds DIRECTION.md directly.
+- **Phase 1 judgment calls** (font pairing, palette craft, "expensive look") →
+  `skills/design-taste`. **Component-level specs** during Phases 4–6 → `skills/ui-patterns`.
+- **Phase 4 copy** → `skills/site-copywriter`. **After Phase 10** → `skills/launch-seo` to
+  ship, or `skills/site-auditor` for an adversarial second opinion.
+
 ## Working with the asset-creation skill
 
 - Builder and asset skill communicate **only** through `assets/manifest.md` — treat it as the API.

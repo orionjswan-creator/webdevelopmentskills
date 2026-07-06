@@ -13,6 +13,10 @@ before writing code.
 | Write or improve website copy / headlines / microcopy | `skills/site-copywriter/SKILL.md` |
 | Review, audit, score, or "make this site award-worthy" | `skills/site-auditor/SKILL.md` |
 | Launch, deploy, SEO, share cards, award submission | `skills/launch-seo/SKILL.md` |
+| "Make it look better/premium" — aesthetic judgment calls | `skills/design-taste/SKILL.md` |
+| Build or polish a specific component (nav, form, modal, card…) | `skills/ui-patterns/SKILL.md` |
+| Research competitors / trends before designing | `skills/competitive-research/SKILL.md` |
+| Ship a site fast ("today", "ASAP", "quick MVP/landing page") | `skills/rapid-site-sprint/SKILL.md` |
 | An award-winning agency / studio / portfolio experience | `skills/styles/immersive-agency/SKILL.md` (via site-builder) |
 | A luxury brand / e-commerce / shop experience | `skills/styles/ecommerce-brand/SKILL.md` (via site-builder) |
 | A magazine / editorial / creative-studio site | `skills/styles/editorial-studio/SKILL.md` (via site-builder) |

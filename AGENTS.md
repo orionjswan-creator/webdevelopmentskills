@@ -32,6 +32,7 @@ before writing code.
 | A personal portfolio / CV site | `skills/styles/personal-portfolio/SKILL.md` (via site-builder) |
 | A hotel / restaurant / venue / real-estate site | `skills/styles/hospitality-place/SKILL.md` (via site-builder) |
 | A campaign / drop / promo / experiential microsite | `skills/styles/campaign-microsite/SKILL.md` (via site-builder) |
+| VJ / concert / DJ-screen visuals, generative event art, interactive installations | `skills/live-visuals/SKILL.md` (standalone — not via site-builder) |
 
 If no style is specified, ask the user to pick one (list the nine with one-line descriptions),
 or infer from the brief and state your choice before building.

@@ -65,7 +65,7 @@ the pipeline.
 Steps 3 and 4 run in either order or in parallel — every image slot is wired to a manifest ID
 and the site builds with placeholders; real images drop in later with zero code changes.
 
-## The skills (24)
+## The skills (25)
 
 ### Core pipeline
 
@@ -87,6 +87,12 @@ and the site builds with placeholders; real images drop in later with zero code 
 | [`personal-portfolio`](skills/styles/personal-portfolio/SKILL.md) | Individual folio, "quiet craft" or "playful signature" pole | Astro/Vite (+ Three.js for playful) |
 | [`hospitality-place`](skills/styles/hospitality-place/SKILL.md) | Hotels, restaurants, venues, luxury real estate: cinematic place-selling with a protected booking path | Astro + GSAP islands (Next.js for booking logic) |
 | [`campaign-microsite`](skills/styles/campaign-microsite/SKILL.md) | FWA-territory experiential one-offs: drops, promos, campaigns built in acts around one signature moment | Vite + TS + Three.js + GSAP |
+
+### Experiential
+
+| Skill | What it does |
+|---|---|
+| [`live-visuals`](skills/live-visuals/SKILL.md) | Real-time audio-reactive visual instruments for live events: EDM/DJ sets, club and festival LED walls, Vegas-scale venue content, and Burning Man-style interactive installations. Browser-based WebGL rig with live audio analysis, MIDI control, scene crossfading, capture/venue output routes, and a built-in photosensitivity flash limiter. References: [audio-reactive](skills/live-visuals/references/audio-reactive.md) (FFT → Signals, beat/BPM detection, MIDI learn-mode, crowd/sensor inputs), [shader-toolkit](skills/live-visuals/references/shader-toolkit.md) (GLSL patterns: flow fields, tunnels, feedback trails, GPU particles, kaleidoscope, logo-SDF moments, cosine palettes), [performance-rig](skills/live-visuals/references/performance-rig.md) (two-window architecture, Resolume/OBS/LED-processor routes, venue format presets, safety limiter, show-night + playa kiosk checklists) |
 
 ### Agency practice (the $40–50K engagement layer)
 

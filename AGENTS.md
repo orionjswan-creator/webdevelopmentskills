@@ -17,6 +17,12 @@ before writing code.
 | Build or polish a specific component (nav, form, modal, card…) | `skills/ui-patterns/SKILL.md` |
 | Research competitors / trends before designing | `skills/competitive-research/SKILL.md` |
 | Ship a site fast ("today", "ASAP", "quick MVP/landing page") | `skills/rapid-site-sprint/SKILL.md` |
+| Scope, quote, or propose a client engagement; run discovery | `skills/client-discovery/SKILL.md` |
+| Plan sitemap / IA / user journeys / wireframes | `skills/ux-architecture/SKILL.md` |
+| Create a logo / identity system / brand guidelines | `skills/brand-identity/SKILL.md` |
+| Present work to a client, process feedback, hand off a project | `skills/client-delivery/SKILL.md` |
+| Formal WCAG audit / accessibility statement / compliance | `skills/accessibility-compliance/SKILL.md` |
+| Add a CMS / make the site client-editable | `skills/cms-integration/SKILL.md` |
 | An award-winning agency / studio / portfolio experience | `skills/styles/immersive-agency/SKILL.md` (via site-builder) |
 | A luxury brand / e-commerce / shop experience | `skills/styles/ecommerce-brand/SKILL.md` (via site-builder) |
 | A magazine / editorial / creative-studio site | `skills/styles/editorial-studio/SKILL.md` (via site-builder) |
@@ -24,8 +30,10 @@ before writing code.
 | A SaaS / developer-tool / B2B product site | `skills/styles/saas-product/SKILL.md` (via site-builder) |
 | A loud, raw, neo-brutalist statement site | `skills/styles/neo-brutalist/SKILL.md` (via site-builder) |
 | A personal portfolio / CV site | `skills/styles/personal-portfolio/SKILL.md` (via site-builder) |
+| A hotel / restaurant / venue / real-estate site | `skills/styles/hospitality-place/SKILL.md` (via site-builder) |
+| A campaign / drop / promo / experiential microsite | `skills/styles/campaign-microsite/SKILL.md` (via site-builder) |
 
-If no style is specified, ask the user to pick one (list the seven with one-line descriptions),
+If no style is specified, ask the user to pick one (list the nine with one-line descriptions),
 or infer from the brief and state your choice before building.
 
 ## Hard rules (apply to every task in this library)

@@ -44,10 +44,28 @@ Cross-cutting partners: **competitive-research** runs before step 2 when the mar
 **rapid-site-sprint** replaces the whole pipeline with a same-day fast path when speed is the
 brief.
 
+## Running a premium ($40–50K) engagement with this library
+
+The agency-practice skills wrap the build pipeline in the phases clients actually pay
+agency prices for — strategy, identity, compliance, operability, and process:
+
+| Engagement phase | Skills | Client-visible deliverables |
+|---|---|---|
+| 1. Discovery & strategy | client-discovery → competitive-research → ux-architecture | DISCOVERY.md, SOW, RESEARCH.md, ARCHITECTURE.md |
+| 2. Identity & direction | brand-identity + design-taste | BRAND.md + brand kit, DIRECTION.md, presented concepts |
+| 3. Design & build | site-builder + asset-creation + site-copywriter + ui-patterns (+ style skill) | Staged site, asset manifest, copy deck |
+| 4. Quality & compliance | site-auditor + accessibility-compliance | QA report, WCAG 2.2 AA audit + accessibility statement |
+| 5. Launch & handoff | launch-seo + cms-integration + client-delivery | Live site, CMS + editor guide, training, handoff package |
+| 6. Care (retainer) | competitive-research trend-watch + site-auditor | Trend/performance reports, iterative upgrades |
+
+Each phase gates on client approval (client-delivery's presentation + feedback machinery),
+and every deliverable above is a named file a downstream skill consumes — the engagement is
+the pipeline.
+
 Steps 3 and 4 run in either order or in parallel — every image slot is wired to a manifest ID
 and the site builds with placeholders; real images drop in later with zero code changes.
 
-## The skills (16)
+## The skills (24)
 
 ### Core pipeline
 
@@ -67,6 +85,19 @@ and the site builds with placeholders; real images drop in later with zero code 
 | [`saas-product`](skills/styles/saas-product/SKILL.md) | Premium product site: real UI as hero, cinematic feature reveals, pricing/changelog | Next.js + Tailwind + Framer Motion + MDX |
 | [`neo-brutalist`](skills/styles/neo-brutalist/SKILL.md) | Committed raw statement: hard borders/shadows, loud type, snappy mechanics | Astro / vanilla + plain CSS |
 | [`personal-portfolio`](skills/styles/personal-portfolio/SKILL.md) | Individual folio, "quiet craft" or "playful signature" pole | Astro/Vite (+ Three.js for playful) |
+| [`hospitality-place`](skills/styles/hospitality-place/SKILL.md) | Hotels, restaurants, venues, luxury real estate: cinematic place-selling with a protected booking path | Astro + GSAP islands (Next.js for booking logic) |
+| [`campaign-microsite`](skills/styles/campaign-microsite/SKILL.md) | FWA-territory experiential one-offs: drops, promos, campaigns built in acts around one signature moment | Vite + TS + Three.js + GSAP |
+
+### Agency practice (the $40–50K engagement layer)
+
+| Skill | What it does |
+|---|---|
+| [`client-discovery`](skills/client-discovery/SKILL.md) | Structured discovery interview → DISCOVERY.md, BRIEF.md, and a phase-gated SOW with scope discipline and the premium-pricing narrative |
+| [`ux-architecture`](skills/ux-architecture/SKILL.md) | Journeys → sitemap → navigation model → text wireframes → conversion strategy → content model (ARCHITECTURE.md) |
+| [`brand-identity`](skills/brand-identity/SKILL.md) | Wordmark system, color/type architecture, voice, and a compact BRAND.md + brand-kit that the site expresses |
+| [`client-delivery`](skills/client-delivery/SKILL.md) | Presenting with rationale, structured feedback rounds, staging discipline, change-request handling, and the full handoff package + training |
+| [`accessibility-compliance`](skills/accessibility-compliance/SKILL.md) | Formal WCAG 2.2 AA audit passes, remediation, and the accessibility statement deliverable (EAA/ADA-aware) |
+| [`cms-integration`](skills/cms-integration/SKILL.md) | CMS selection, guardrailed schema from the content model, previews/validation, migration, and the editor guide |
 
 ### Support
 
@@ -82,6 +113,7 @@ and the site builds with placeholders; real images drop in later with zero code 
 
 ### Shared references (the research, distilled)
 
+- [`site-builder/references/award-casebook.md`](skills/site-builder/references/award-casebook.md) — real SOTY/SOTD winners and genre exemplars reduced to their extractable patterns, with cross-cutting lessons
 - [`site-builder/references/motion-recipes.md`](skills/site-builder/references/motion-recipes.md) — 14 copy-paste GSAP/Lenis/Three.js/CSS recipes (masked reveals, scrub pins, cursors, WebGL starter, kinetic gradients…)
 - [`site-builder/references/quality-bar.md`](skills/site-builder/references/quality-bar.md) — the award rubric as concrete pass/fail checks + performance budgets
 - [`site-builder/references/tech-stack-guide.md`](skills/site-builder/references/tech-stack-guide.md) — **which stack is optimal for which site**, and the standard toolkit
